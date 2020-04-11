@@ -29,11 +29,11 @@
     },
     "license": "MIT",
 	"bugs": {
-			"url": "https://github.com/data-team-six/analytics-snippets-vscode/issues.git"
+			"url": "https://github.com/data-team-six/analytics-snippets/issues.git"
 	},
 	"repository": {
 			"type": "git",
-			"url": "https://github.com/data-team-six/analytics-snippets-vscode.git"
+			"url": "https://github.com/data-team-six/analytics-snippets.git"
 	},
 	"homepage": ""
 }
