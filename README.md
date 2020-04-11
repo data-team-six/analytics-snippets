@@ -1,4 +1,4 @@
-# analytics-snippets-vscode README
+# Analytics Snippets For VSCode README
 
 This is the README for your extension "analytics-snippets-vscode". After writing up a brief description, we recommend including the following sections.
 
