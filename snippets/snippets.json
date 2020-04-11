@@ -1,6 +1,6 @@
 {
     "GTM Base + HTML5 Skeleton": {
-        "prefix": "gtmfull",
+        "prefix": "!gtmfull",
         "body": [
             "<!DOCTYPE html>",
 			"<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->",
@@ -43,7 +43,7 @@
         "description": "GTM Snippet (<head> + <body> noscript) deployed in HTML 5 skeleton "
     },
     "GTM Base Snippet <head>": {
-        "prefix": "gtmhead",
+        "prefix": "!gtmhead",
         "body": [
             "<!-- DataLayer -->",
             "<script>",
@@ -61,7 +61,7 @@
         "description": "Base Container Snippet - Add after opening <head> tag"
     },
     "GTM noscript Snippet <body>": {
-        "prefix": "gtmbody", 
+        "prefix": "!gtmbody", 
         "body": [
             "<!-- Google Tag Manager (noscript) -->",
             "<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=${1:GTM-XXXXXXX}\"",
