@@ -1,7 +1,7 @@
 {
     "name": "analytics-snippets-vscode",
-    "displayName": "analytics-snippets-vscode",
-    "description": "Easily add and configure custom tracking code snippets for digital analytics platforms like Google Analytics, Google Tag Manager, Adobe Analytics, Salesforce, Hubspot and more. ",
+    "displayName": "Analytics Code Snippets",
+    "description": "Easily add and configure custom tracking code snippets for Google Analytics, Google Tag Manager and more. ",
     "publisher": "Data Team Six",
     "icon": "images/icon.png",
     "version": "1.0.0",
