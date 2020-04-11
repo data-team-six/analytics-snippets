@@ -1,0 +1,73 @@
+{
+    "GTM Base + HTML5 Skeleton": {
+        "prefix": "gtmfull",
+        "body": [
+            "<!DOCTYPE html>",
+			"<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->",
+			"<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->",
+			"<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->",
+			"<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->",
+			"\t<head>",
+			"\t\t<meta charset=\"utf-8\">",
+			"\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+			"\t\t<title></title>",
+            "\t\t<meta name=\"description\" content=\"\">",
+            "\t\t<!-- DataLayer -->",
+            "\t\t<script>",
+            "\t\t\tdataLayer = [];",
+            "\t\t</script>",
+            "\t\t<!-- Google Tag Manager -->",
+            "\t\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+            "\t\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],",
+            "\t\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+            "\t\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+            "\t\t})(window,document,'script','dataLayer','GTM-${1:XXXXXXX'});</script>",
+            "\t\t<!-- End Google Tag Manager -->",
+			"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+			"\t\t<link rel=\"stylesheet\" href=\"\">",
+    		"\t</head>",
+    		"\t<body>",
+        	"\t\t<!--[if lt IE 7]>",
+            "\t\t\t<p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"#\">upgrade your browser</a> to improve your experience.</p>",
+			"\t\t<![endif]-->",
+            "\t\t",
+            "\t\t<!-- Google Tag Manager (noscript) -->",
+            "\t\t<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=${2:GTM-XXXXXXX}\"",
+            "\t\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>",
+            "\t\t<!-- End Google Tag Manager (noscript) -->",
+            "\t\t<script src=\"\" async defer></script>",
+			"\t</body>",
+			"</html>"
+
+        ], 
+        "description": "GTM Snippet (<head> + <body> noscript) deployed in HTML 5 skeleton "
+    },
+    "GTM Base Snippet <head>": {
+        "prefix": "gtmhead",
+        "body": [
+            "<!-- DataLayer -->",
+            "<script>",
+            "\tdataLayer = [];",
+            "</script>",
+            "<!-- Google Tag Manager -->",
+            "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':",
+            "new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],",
+            "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=",
+            "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+            "})(window,document,'script','dataLayer','GTM-${1:XXXXXXX'});</script>",
+            "<!-- End Google Tag Manager -->"
+            
+        ], 
+        "description": "Base Container Snippet - Add after opening <head> tag"
+    },
+    "GTM noscript Snippet <body>": {
+        "prefix": "gtmbody", 
+        "body": [
+            "<!-- Google Tag Manager (noscript) -->",
+            "<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=${1:GTM-XXXXXXX}\"",
+            "height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>",
+            "<!-- End Google Tag Manager (noscript) -->"
+        ],
+        "description": "GTM snippet for browsers with no javascript enabled - add after opening <body> tag"
+    }
+}
